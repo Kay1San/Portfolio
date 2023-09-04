@@ -1,0 +1,63 @@
+@import "../../vars.css";
+
+.container{
+    color:var(--color-text);
+    margin-left: 10%;
+    margin-top: 70px;
+}
+
+.container h2 {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.jobContainer{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.CSA{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid var(--color-secondary);
+    border-radius: 15px;
+    max-width: 77%;
+}
+
+.CSA h3 {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.CSAimg{
+    margin-left: 10px;
+
+}
+
+.test{
+    margin-top:15px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.CSAimg p {
+    color:gray;
+    margin-bottom: 10px
+}
+
+.CSAimg ul {
+    list-style: none;
+    margin-bottom: 20px;
+    font: var(--font-roboto);
+}
+
+.CSAimg li {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "name":"HTML",
+        "logo":"skills/html5-logo-24.png"
+    },
+    {
+        "name":"CSS",
+        "logo":"skills/css3-logo-24.png"
+    },
+    {
+        "name":"React JS",
+        "logo":"skills/react-logo-24.png"
+    }
+]

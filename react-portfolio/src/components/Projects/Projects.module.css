@@ -7,22 +7,25 @@
     margin-right: 10%;
 }
 
-.title{
+.container h2 {
     font-size: 35px;
     font-weight: 700;
-    letter-spacing: 1.75px;
     text-transform: uppercase;
-
+    margin-bottom: 20px;
 }
 
-.projects{
-    margin-top: 37px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.projectsContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 0.4fr);
     align-items: center;
     justify-content: center;
-    gap: 15px;
-    width: 100%;
+    gap: 20px;
 }
 
+.singleProject {
+    width: 450px;
+    height: 300px;
+    border: 1px solid var(--color-dark);
+    border-radius: 15px;
+    background: var(--color-dark);
+}

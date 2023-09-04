@@ -1,22 +1,29 @@
-import React from "react"
-
+import React, {useState} from "react"
+import {getImageUrl} from "../../utils"
 import projects from "../../data/projects.json"
-import {ProjectCard} from "./ProjetCard"
-import { getImageUrl } from "../../utils"
+import Modal from "./Modal.jsx"
 import styles from "./Projects.module.css"
 
 
 export const Projects = () => {
+    const [isOpen, setIsOpen] = useState(false)
     return (
-        <section className={styles.container} id ="projects">
-            <h2 className={styles.title}>Projects</h2>
-            <div className={styles.projects}>
-                {projects.map((project, id) => {
-                    return (
-                       <ProjectCard  key={id} project={project}/>
-                    )
-                })}
+       <section className={styles.container}>
+        <h2>Projects</h2>
+        <div className={styles.projectsContainer}>
+            <div className={styles.singleProject}>
+                <h3>Title</h3>
+                <p>date</p>
+                <p>location</p>
+                <p>skills</p>
+                <button onClick={() => setIsOpen(true)}>Learn More </button>
+
+                <Modal open={isOpen} onClose={() => setIsOpen(false)}>
+                    Testing Modal Content
+                </Modal>
+                
             </div>
-        </section>
+        </div>
+       </section>
     )
 }
