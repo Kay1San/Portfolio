@@ -16,15 +16,19 @@
 .jobContainer{
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9%;
     gap: 30px;
 }
 
 .CSA{
     display: flex;
     flex-direction: column;
-    border: 5px solid var(--color-secondary);
+    border: 2px solid #083F5F;
+    box-shadow: 0 0 20px #083F5F;
     border-radius: 15px;
-    max-width: 77%;
+    max-width: 600px;
 }
 
 .CSA h3 {
@@ -53,11 +57,13 @@
 }
 
 .CSAimg ul {
-    list-style: none;
     margin-bottom: 20px;
+    margin-left: 30px;
     font: var(--font-roboto);
+    margin-right: 30px;
 }
 
 .CSAimg li {
     margin-bottom: 5px;
+    
 }

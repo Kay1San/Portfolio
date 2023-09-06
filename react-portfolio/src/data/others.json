@@ -4,16 +4,17 @@
         "logo":"skills/Git-Icon.png"
     },
     {
+        "name":"Visual Studio Code",
+        "logo":"skills/visual-studio-code-logo.png"
+    },
+    
+    {
         "name":"GitHub",
         "logo":"skills/GitHub-Mark.png"
     },
     {
         "name":"Azure DevOps",
         "logo":"skills/Azure-Devops.png"
-    },
-    {
-        "name":"Visual Studio Code",
-        "logo":"skills/visual-studio-code-logo.png"
     },
     {
         "name":"Anaconda",

@@ -81,7 +81,8 @@ export const Skills = () => {
                 </div>
 
 
-
+                <div className={styles.topBlur} />
+                <div className={styles.bottomBlur} />
 
             </div>
         </section>
