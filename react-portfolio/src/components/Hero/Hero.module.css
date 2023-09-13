@@ -24,7 +24,7 @@
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 33px;
-    font-family: var(--font-roboto);
+    font-family: 'Montserrat', sans-serif;
     background: linear-gradient(90deg, 
     rgba(255,255,255,1) 70%, 
     rgba(255,255,255,0) 120%);
@@ -33,9 +33,12 @@
 }
 
 .description {
-    font-size: 30px;
-    font-family: var(--font-roboto);
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 52px;
+    text-align: justify;
+    width: 700px;
+    margin-left: 0;
 
 }
 
@@ -59,6 +62,8 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+
+
 
 @keyframes floating {
     0% {
@@ -103,6 +108,11 @@
 
 }
 
+.heroBtns {
+    display: flex;
+    gap: 30px;
+}
+
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column-reverse;
@@ -110,5 +120,11 @@
 
     .content {
         align-items: center;
+    }
+
+    .description {
+        text-align: justify;
+        width: 400px;
+
     }
 }

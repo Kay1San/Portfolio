@@ -10,5 +10,19 @@
     {
         "name":"KiCad",
         "logo":"skills/KiCAD-logo.png"
+    },
+    {
+        "name":"Xilinx Vivado",
+        "logo":"skills/Vivado-logo.png"
+    },
+
+    {
+        "name": "Keil UVision",
+        "logo":"skills/Keil-Logo.png"
+    },
+
+    {
+        "name": "AGI32",
+        "logo":"skills/AGI32-logo.png"
     }
 ]

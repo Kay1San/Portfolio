@@ -22,36 +22,37 @@ export const About = () => {
                         Education
                     </h3>
                     <p>
-                        Graduated from Polytechnique Montreal in Electrical Engineering.
+                        Bachelor's degree from Polytechnique Montréal in Electrical Engineering with a minor in Automation.
                     </p>
 
                 </div>
             </li>
             <li className={styles.aboutItem}>
-                <img src={getImageUrl("about/embedded.png")} alt = "server icon" />
+                <img src={getImageUrl("about/laptop-icon.png")} alt = "laptop icon"  className={styles.laptop}/>
                 <div className={styles.aboutItemText}>
                     <h3>
-                        Embedded Developper
+                        Software Developper
                     </h3>
                     <p>
-                        I have experience developing projects using embedded systems.
+                        Experience in multiple languages, most notably C/C++ and Python.
                     </p>
                     
                 </div>
             </li>
 
             <li className={styles.aboutItem}>
-                <img src={getImageUrl("about/uiIcon.png")} alt = "cursor icon" />
+                <img src={getImageUrl("about/suitcase.png")} alt = "suitcase icon"  className={styles.suitcase}/>
                 <div className={styles.aboutItemText}>
                     <h3>
-                        Frontend Developper
+                        Work Experience
                     </h3>
                     <p>
-                        I have a passion in building web applications.
+                        Internship at the Canadian Space Agency and two others in the energy sector (Energere and Régie de l'énergie).
                     </p>
                     
                 </div>
             </li>
+            
         </ul>
         </div>
     </section>

@@ -1,0 +1,14 @@
+[
+    {
+        "icon":"contact/linkedinIcon.png",
+        "link":"https://www.linkedin.com/in/kaywan-sanjari-972784209"
+    },
+    {
+        "icon":"contact/emailIcon.png",
+        "link":"mailto:kaywan.sanjari@gmail.com"
+    },
+    {
+        "icon":"contact/githubIcon.png",
+        "link":"https://github.com/Kay1San"
+    }
+]

@@ -6,8 +6,8 @@
       "location": "Personal project",
       "date": "September 2023",
       "description": "First web appplication developpement using React JS and Vite",
-      "skills": ["HTML", "CSS", "React JS", "Vite"],
-      "source": "https://www.github.com",
+      "skills": ["HTML", "CSS", "JavaScript", "React", "Vite"],
+      "source": "https://github.com/Kay1San",
       "logo": "projects/GitHub-Mark.png"
     },
     {
@@ -22,14 +22,14 @@
       "logo": "projects/GitHub-Mark.png"
     },
     {
-      "title": "STM32 Dino game",
+      "title": "Google Chrome Dinosaur game on an embedded system",
       "imageSrc": "projects/flip.png",
       "imageSrcR": "projects/flip2.png",
       "location": "Project done within the course ELE3312 - Microcontrollers and appplications",
       "date": "October 2022 - December 2022",
       "description": "Chrome Dinosaur game running on a STM32 microcontroller that plays through ultrasonic sensors while including a multiplayer mode.",
       "skills": ["C", "STM32", "Keil UVision"],
-      "source": "https://www.github.com",
+      "source": "https://github.com/Kay1San",
       "logo": "projects/GitHub-Mark.png"
     },
 
@@ -40,8 +40,8 @@
       "location": "Personal project",
       "date": "February 2021 - April 2021",
       "description": "Garbage bin with automatic opening through voice or hand detection that measures the amount of waste inside it and sends an SMS whenever it's full.",
-      "skills": ["C++", "Arduino"],
-      "source": "https://www.github.com",
+      "skills": ["C++", "Arduino", "3G Network"],
+      "source": "https://github.com/Kay1San",
       "logo": "projects/GitHub-Mark.png"
     }
   ]

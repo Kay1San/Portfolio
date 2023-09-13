@@ -11,13 +11,14 @@ export const Jobs = () => {
                     <h3>Electrical Engineer Intern</h3>
                     <div className={styles.CSAimg}>
                         <div className={styles.test}>
-                            <img src={getImageUrl("history/CSA-logo.png")} alt="csa-logo"/>
-                            <h4>Agence Spatiale Canadienne / Canadian Space Agency</h4>
+                            <img src={getImageUrl("history/CSA.png")} alt="csa-logo"/>
+                            <h4>Canadian Space Agency / Agence Spatiale Canadienne</h4>
                         </div>
                         <p>May 2023 - August 2023</p>
                         <ul>
-                            <li>Implemented a Python-based image data compression algorithm to support the Mars Ice Mapper mission</li>
-                            <li>Simulated, in Matlab, a synthetic aperture radar compressionn using the Range Doppler algorithm</li>
+                            <li>Implemented a Python-based image data compression algorithm with bit-plane encoding and object-oriented programming to support the International Mars Ice Mapper mission</li>
+                            <li>Worked with multiple Python environments in Anaconda using packages such as Numba, NumPy and GDAL</li>
+                            <li>Simulated Synthetic Aperture Radar imaging in MATLAB using the Range-Doppler Algorithm</li>
                         </ul>
                     </div>
                 </div>
@@ -26,7 +27,7 @@ export const Jobs = () => {
                     <h3>Electrical Engineer Intern</h3>
                     <div className={styles.CSAimg}>
                         <div className={styles.test}>
-                            <img src={getImageUrl("history/energere-logo.png")} alt="csa-logo"/>
+                            <img src={getImageUrl("history/energere.png")} alt="csa-logo"/>
                             <h4>Energere</h4>
                         </div>
                         <p>May 2022 - August 2022</p>
@@ -42,7 +43,7 @@ export const Jobs = () => {
                     <h3>Electrical Engineer Intern</h3>
                     <div className={styles.CSAimg}>
                         <div className={styles.test}>
-                            <img src={getImageUrl("history/regie-logo.png")} alt="csa-logo"/>
+                            <img src={getImageUrl("history/quebec.png")} alt="csa-logo"/>
                             <h4>La Régie de l'énergie</h4>
                         </div>
                         <p>August 2021 - December 2021</p>

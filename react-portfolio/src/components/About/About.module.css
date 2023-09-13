@@ -17,6 +17,8 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 .content{
@@ -50,6 +52,13 @@
     background-size: 0 100%;
 }
 
+.aboutItem h3, p {
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
 .aboutItem:hover {
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -63,10 +72,19 @@
 
 .aboutItem p {
     font-size: 25px;
+    margin-left: 20px;
 }
 
 .graduation {
    margin-right: 15px;
+}
+
+.suitcase{
+    margin-right: 30px;
+}
+
+.laptop {
+    margin-right: 22px;
 }
 
 @media screen and (max-width: 830px) {

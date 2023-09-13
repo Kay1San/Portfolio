@@ -1,0 +1,39 @@
+[
+    {
+        "name":"C++",
+        "logo":"skills/c-plus-plus-logo-24.png"
+    },
+    {
+        "name":"C",
+        "logo":"skills/C.png"
+    },
+    {
+        "name":"Python",
+        "logo":"skills/python-logo-24.png"
+    },
+
+    {
+        "name": "Matlab",
+        "logo": "skills/Matlab_Logo.png"
+
+    },
+
+    {
+        "name":"VHDL",
+        "logo":"skills/VHDL-logo.png"
+    },
+
+    {
+        "name":"HTML",
+        "logo":"skills/html-logo.png"
+    },
+    {
+        "name":"CSS",
+        "logo":"skills/css-logo.png"
+    },
+
+    {
+        "name":"JavaScript",
+        "logo":"skills/javascript-logo.png"
+    }
+]

@@ -1,20 +1,19 @@
 [
     {
-        "name":"Git",
-        "logo":"skills/Git-Icon.png"
+        "name":"Linux",
+        "logo":"skills/linux-logo.png"
     },
     {
-        "name":"Visual Studio Code",
+        "name": "Windows",
+        "logo":"skills/windows-logo.png"
+    },
+    {
+        "name": "Visual Studio",
+        "logo":"skills/VS-logo.png"
+    },
+    {
+        "name":"VS Code",
         "logo":"skills/visual-studio-code-logo.png"
-    },
-    
-    {
-        "name":"GitHub",
-        "logo":"skills/GitHub-Mark.png"
-    },
-    {
-        "name":"Azure DevOps",
-        "logo":"skills/Azure-Devops.png"
     },
     {
         "name":"Anaconda",

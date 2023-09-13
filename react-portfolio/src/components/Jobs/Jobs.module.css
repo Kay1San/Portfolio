@@ -32,7 +32,7 @@
 }
 
 .CSA h3 {
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 15px;
 }
 
@@ -47,8 +47,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
+    gap: 12px;
     font-weight: bold;
+    margin-left: 10px;
+    font-size: 20px;
 }
 
 .CSAimg p {
@@ -59,11 +61,11 @@
 .CSAimg ul {
     margin-bottom: 20px;
     margin-left: 30px;
-    font: var(--font-roboto);
     margin-right: 30px;
 }
 
 .CSAimg li {
     margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
     
 }

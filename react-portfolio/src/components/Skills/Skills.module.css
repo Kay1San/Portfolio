@@ -11,6 +11,7 @@
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .Boxes{
@@ -22,8 +23,8 @@
     gap: 20px;
 }
 
-.FrontEndBox {
-    width: 450px;
+.FrontEndBox, .BackEndBox, .DesignBox, .OthersBox {
+    width: 550px;
     height: 300px;
     border: 2px solid #2D92B2;
     border-radius: 15px;
@@ -32,22 +33,20 @@
 }
 
 
-.FrontEndBox h3 {
+.FrontEndBox h3, .BackEndBox h3, .DesignBox h3, .OthersBox h3 {
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 15px;
     font-size: 28px;
 }
 
-.containerFront{
+.containerFront, .containerBack , .containerDesign, .containerOthers{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 450px;
 }
 
-.skillsFront {
+.skillsFront, .skillsBack, .skillsDesign, .skillsOthers {
     display: flex;
     gap: 12px;
     margin: 15px;
@@ -65,35 +64,11 @@
 
 }
 
-.BackEndBox, .DesignBox, .OthersBox {
-    width: 450px;
-    height: 300px;
-    border: 2px solid #2D92B2;
-    border-radius: 15px;
-    box-shadow: 0 0 10px #2D92B2;
-    background: #121820;
-}
-
-.BackEndBox h3, .DesignBox h3, .OthersBox h3 {
+.skillElement p {
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    font-size: 28px;
 }
 
-.containerBack , .containerDesign, .containerOthers{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 450px;
-}
 
-.skillsBack, .skillsDesign, .skillsOthers {
-    display: flex;
-    gap: 12px;
-    margin: 15px;
-}
 
 @media screen and (max-width: 830px) {
 
@@ -101,6 +76,11 @@
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+    }
+
+    .FrontEndBox, .BackEndBox, .DesignBox, .OthersBox {
+        width: 400px;
+        height: 370px;
     }
 }
 
