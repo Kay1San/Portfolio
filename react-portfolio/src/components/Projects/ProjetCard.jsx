@@ -2,7 +2,6 @@ import React, {useState} from "react"
 import projects from "../../data/projects.json"
 import { getImageUrl } from "../../utils"
 import styles from "./ProjectCard.module.css"
-import Modal from "./Modal.jsx"
 import ReactCardFlip from "react-card-flip"
 
 export const ProjectCard = ({

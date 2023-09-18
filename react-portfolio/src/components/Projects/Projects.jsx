@@ -3,7 +3,7 @@ import {getImageUrl} from "../../utils"
 import projects from "../../data/projects.json"
 import styles from "./Projects.module.css"
 import { ProjectCard } from "./ProjetCard"
-import Modal from "./Modal.jsx"
+
 
 
 export const Projects = () => {

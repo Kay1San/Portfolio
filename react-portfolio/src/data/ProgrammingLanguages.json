@@ -1,7 +1,7 @@
 [
     {
         "name":"C++",
-        "logo":"skills/c-plus-plus-logo-24.png"
+        "logo":"skills/c++-logo.png"
     },
     {
         "name":"C",
@@ -9,11 +9,11 @@
     },
     {
         "name":"Python",
-        "logo":"skills/python-logo-24.png"
+        "logo":"skills/python-logo.png"
     },
 
     {
-        "name": "Matlab",
+        "name": "MATLAB",
         "logo": "skills/Matlab_Logo.png"
 
     },

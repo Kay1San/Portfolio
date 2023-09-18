@@ -1,4 +1,3 @@
-@import "../../vars.css";
 
 .singleProject{
    color: white;
@@ -21,34 +20,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.learnButton {
-    margin-top: 20px;
-    background: var(--color-primary);
-    border-radius: 10px;
-    padding: 12px 20px;
-    font-size: 20px;
-    color: white;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    position: relative;
-
-}
-
-.fullButton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .skills{
-    color: white;
-    border: 1px solid var(--color-dark);
-    background: var(--color-dark);
+    color: #fff;
+    border: 1px solid #0b2447;
+    background: #0b2447;
     margin-right: 10px;
     margin-left: 20px;
     border-radius: 15px;
@@ -119,6 +95,7 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    padding-left: 10px;
     
 }
 
@@ -137,3 +114,28 @@
     border: 1px solid #232425;
 }
 
+
+@media screen and (max-width: 460px)
+{
+    .singleProject{
+        width: 350px;
+        height: 300px;
+    }
+
+    .backCard {
+        width: 350px;
+        height: 300px;
+    }
+
+    .frontCard
+    {
+        width: 350px;
+        height: 300px;
+    }
+
+    .gitLink{
+        font-size: 14.5px;
+        padding-right: 2px;
+        padding-left: 7px;
+    }
+}

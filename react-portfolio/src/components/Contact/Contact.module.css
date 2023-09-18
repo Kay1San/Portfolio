@@ -1,4 +1,4 @@
-@import "../../vars.css";
+
 
 .container{
     margin-top: 80px;
@@ -6,7 +6,6 @@
     justify-content: center;
     text-align: center;
     color: #FFFF;
-    height: 300px;
 }
 
 h2 {
@@ -46,4 +45,11 @@ h2 {
         max-width: 400px;
     }
 
+}
+
+@media screen and (max-width: 460px) {
+
+    .reach {
+        width: 300px;
+    }
 }

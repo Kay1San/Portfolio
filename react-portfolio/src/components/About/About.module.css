@@ -1,4 +1,4 @@
-@import "../../vars.css";
+
 
 .container {
     position: relative;
@@ -12,7 +12,7 @@
 }
 
 .title{
-    color:var(--color-text);
+    color: #fff;
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
@@ -33,7 +33,7 @@
 }
 
 .aboutItems {
-    color: var(--color-text);
+    color: #fff;
     display: flex;
     flex-direction: column;
     gap: 50px;

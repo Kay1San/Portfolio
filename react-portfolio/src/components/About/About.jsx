@@ -47,7 +47,7 @@ export const About = () => {
                         Work Experience
                     </h3>
                     <p>
-                        Internship at the Canadian Space Agency and two others in the energy sector (Energere and Régie de l'énergie).
+                        Internship at the Canadian Space Agency and two others in the energy sector (Énergère and la Régie de l'énergie).
                     </p>
                     
                 </div>

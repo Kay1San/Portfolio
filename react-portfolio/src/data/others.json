@@ -8,12 +8,12 @@
         "logo":"skills/windows-logo.png"
     },
     {
-        "name": "Visual Studio",
-        "logo":"skills/VS-logo.png"
-    },
-    {
         "name":"VS Code",
         "logo":"skills/visual-studio-code-logo.png"
+    },
+    {
+        "name": "Visual Studio",
+        "logo":"skills/VS-logo.png"
     },
     {
         "name":"Anaconda",
@@ -22,5 +22,9 @@
     {
         "name":"Spyder",
         "logo":"skills/Spyder-logo.png"
+    },
+    {
+        "name": "Jupyter Notebook",
+        "logo": "skills/jupyter-logo.png"
     }
 ]

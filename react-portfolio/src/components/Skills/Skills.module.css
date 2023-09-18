@@ -1,7 +1,7 @@
-@import "../../vars.css";
+
 
 .container{
-    color:var(--color-text);
+    color: #fff;
     margin-left: 10%;
     margin-top: 70px;
 }
@@ -82,5 +82,39 @@
         width: 400px;
         height: 370px;
     }
+}
+
+
+@media screen and (max-width: 460px)
+{
+
+    .Boxes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .FrontEndBox{
+        width: 350px;
+        height: 570px;
+    }
+
+    .DesignBox {
+        width: 350px;
+        height: 640px;
+    }
+
+    .BackEndBox{
+        width: 350px;
+        height: 385px
+    }
+
+    .OthersBox{
+        width: 350px;
+        height: 615px;
+    }
+
+    
+
 }
 

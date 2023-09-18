@@ -1,4 +1,4 @@
-@import "../../vars.css";
+
 
 .navbar {
     position: relative;
@@ -15,7 +15,7 @@
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
-    color: var(--color-text);
+    color: #fff;
 }
 
 .menu {

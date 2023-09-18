@@ -20,7 +20,7 @@ export const Hero = () => {
                 <a href={pdf} className={styles.contactEmail} target="_blank">Resume</a>
             </div>
         </div>
-        <img  alt="hero image of me" className={styles.heroImg}/>
+        <img  src={getImageUrl("hero/me-image.png")}alt="image of me" className={styles.heroImg}/>
 
         <div className={styles.topBlur} />
         <div className={styles.bottomBlur} />

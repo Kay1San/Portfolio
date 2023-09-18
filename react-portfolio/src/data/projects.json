@@ -5,9 +5,9 @@
       "imageSrcR": "projects/flip2.png",
       "location": "Personal project",
       "date": "September 2023",
-      "description": "First web appplication developpement using React JS and Vite",
+      "description": "First web application development using React JS and Vite.   ",
       "skills": ["HTML", "CSS", "JavaScript", "React", "Vite"],
-      "source": "https://github.com/Kay1San",
+      "source": "https://github.com/Kay1San/Portfolio/tree/main/react-portfolio",
       "logo": "projects/GitHub-Mark.png"
     },
     {
@@ -16,8 +16,8 @@
       "imageSrcR": "projects/flip2.png",
       "location": "Senior year project in collaboration with Rheolution Inc. ",
       "date": "August 2022 - May 2023",
-      "description": "Developpement of a power supply module and charging management system for a Lithium-ion battery controlled by an embedded system. I worked on the electrical circuits designs as well as the Matlab/Simulink simulations of the state of charge.",
-      "skills": ["Matlab", "Simulink", "KiCad", "IEC Standards"],
+      "description": "Development  of a power supply module and charging management system for a Lithium-ion battery controlled by an embedded system. I worked on the electrical circuits designs as well as the MATLAB/SIMULINK simulations of the state of charge.",
+      "skills": ["MATLAB", "SIMULINK", "Circuit designs", "IEC Standards"],
       "source": "",
       "logo": "projects/GitHub-Mark.png"
     },
@@ -27,9 +27,9 @@
       "imageSrcR": "projects/flip2.png",
       "location": "Project done within the course ELE3312 - Microcontrollers and appplications",
       "date": "October 2022 - December 2022",
-      "description": "Chrome Dinosaur game running on a STM32 microcontroller that plays through ultrasonic sensors while including a multiplayer mode.",
-      "skills": ["C", "STM32", "Keil UVision"],
-      "source": "https://github.com/Kay1San",
+      "description": "Chrome Dinosaur game running on a STM32 microcontroller that plays through ultrasonic sensors and also includes a multiplayer mode.",
+      "skills": ["C", "STM32", "UART", "Keil UVision"],
+      "source": "https://github.com/Kay1San/STM32-DinoGame/tree/main/Projet",
       "logo": "projects/GitHub-Mark.png"
     },
 
@@ -41,7 +41,7 @@
       "date": "February 2021 - April 2021",
       "description": "Garbage bin with automatic opening through voice or hand detection that measures the amount of waste inside it and sends an SMS whenever it's full.",
       "skills": ["C++", "Arduino", "3G Network"],
-      "source": "https://github.com/Kay1San",
+      "source": "https://github.com/Kay1San/Touchless-automatic-sensor-garbage-bin-with-telecommunications-features",
       "logo": "projects/GitHub-Mark.png"
     }
   ]

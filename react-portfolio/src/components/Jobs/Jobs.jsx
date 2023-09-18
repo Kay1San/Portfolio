@@ -16,9 +16,9 @@ export const Jobs = () => {
                         </div>
                         <p>May 2023 - August 2023</p>
                         <ul>
-                            <li>Implemented a Python-based image data compression algorithm with bit-plane encoding and object-oriented programming to support the International Mars Ice Mapper mission</li>
-                            <li>Worked with multiple Python environments in Anaconda using packages such as Numba, NumPy and GDAL</li>
-                            <li>Simulated Synthetic Aperture Radar imaging in MATLAB using the Range-Doppler Algorithm</li>
+                            <li>Implemented a Python-based image data compression algorithm with bit-plane encoding and object-oriented programming to support the International Mars Ice Mapper mission.</li>
+                            <li>Worked with multiple Python environments in Anaconda using packages such as Numba, NumPy and GDAL.</li>
+                            <li>Simulated Synthetic Aperture Radar imaging in MATLAB using the Range-Doppler Algorithm.</li>
                         </ul>
                     </div>
                 </div>
@@ -32,9 +32,9 @@ export const Jobs = () => {
                         </div>
                         <p>May 2022 - August 2022</p>
                         <ul>
-                            <li>Design of lighting conversion projects by lighting calculations on AGI32</li>
-                            <li>Analysis of data collected on ArcGIS about luminaires concerning the cities and municipalities of Québec</li>
-                            <li>Realisation of several feasibility studies on the choices of luminaires through ClickUp</li>
+                            <li>Conducted the design and analysis of road LED lightning conversion projects in AGI32.</li>
+                            <li>Analyzed data related to luminaires from cities and municipalities in Quebec on ArcGIS.</li>
+                            <li>Prepared multiple feasibility studies for luminaire selection using ClickUp.</li>
                         </ul>
                     </div>
                 </div>
@@ -48,8 +48,8 @@ export const Jobs = () => {
                         </div>
                         <p>August 2021 - December 2021</p>
                         <ul>
-                            <li>Analysis of reliability standards applicable to the electricity transmission network in Québec</li>
-                            <li>Drafting of reference documents and analyses in Microsoft Office, for transmission to entites subject to the reliability regime</li>
+                            <li>Analyzed reliability standards applicable to the electricity transmission network in Québec.</li>
+                            <li>Drafted reference documents and analyses in Microsoft Office, for transmission to entities subject to the reliability regime.</li>
                         </ul>
                     </div>
                 </div>
