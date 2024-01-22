@@ -12,6 +12,10 @@
         "logo":"skills/python-logo.png"
     },
 
+    { "name": "R",
+      "logo": "skills/Rlogo 1.png"
+    },
+
     {
         "name": "MATLAB",
         "logo": "skills/Matlab_Logo.png"

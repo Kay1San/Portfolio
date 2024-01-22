@@ -22,7 +22,7 @@ export const About = () => {
                         Education
                     </h3>
                     <p>
-                        Bachelor's degree from Polytechnique Montréal in Electrical Engineering with a minor in Automation.
+                        Bachelor's degree from Polytechnique Montréal in Electrical Engineering.
                     </p>
 
                 </div>
@@ -47,7 +47,7 @@ export const About = () => {
                         Work Experience
                     </h3>
                     <p>
-                        Internship at the Canadian Space Agency and two others in the energy sector (Énergère and la Régie de l'énergie).
+                    Previous internship experience at the Canadian Space Agency.
                     </p>
                     
                 </div>

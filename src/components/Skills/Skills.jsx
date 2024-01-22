@@ -1,10 +1,10 @@
 import React from "react"
 import {getImageUrl} from "../../utils"
 import styles from "./Skills.module.css"
-import BackEnd from "../../data/DevTools.json"
-import FrontEnd from "../../data/ProgrammingLanguages.json"
-import Design from "../../data/Design.json"
-import others from "../../data/others.json"
+import Dev from "../../data/DevTools.json"
+import Languages from "../../data/ProgrammingLanguages.json"
+import DataScience from "../../data/DataScience.json"
+import IDE from "../../data/others.json"
 
 export const Skills = () => {
     return (
@@ -14,13 +14,13 @@ export const Skills = () => {
                 <div className={styles.FrontEndBox}>
                     <h3>Programming Languages</h3>
                     <div className={styles.containerFront}>
-                        {FrontEnd.map((frontEnd, id) => {
+                        {Languages.map((languages, id) => {
                             return (
                                 <div key={id} className={styles.skillsFront}>
 
                                     <div className={styles.skillElement}>
-                                        <img src={getImageUrl(frontEnd.logo)} alt = "skill-logo" />
-                                        <p>{frontEnd.name}</p>
+                                        <img src={getImageUrl(languages.logo)} alt = "skill-logo" />
+                                        <p>{languages.name}</p>
                                     </div>
                                 </div>
                             )
@@ -29,9 +29,9 @@ export const Skills = () => {
                 </div>
 
                 <div className={styles.DesignBox}>
-                    <h3>Design / Simulation Tools</h3>
+                    <h3>Data Science Tools</h3>
                     <div className={styles.containerDesign}>
-                        {Design.map((design, id) => {
+                        {DataScience.map((design, id) => {
                             return (
                                 <div key={id} className={styles.skillsDesign}>
 
@@ -48,13 +48,13 @@ export const Skills = () => {
                 <div className={styles.BackEndBox}>
                     <h3>Development Tools</h3>
                     <div className={styles.containerBack}>
-                        {BackEnd.map((backEnd, id) => {
+                        {Dev.map((dev, id) => {
                             return (
                                 <div key={id} className={styles.skillsBack}>
 
                                     <div className={styles.skillElement}>
-                                        <img src={getImageUrl(backEnd.logo)} alt = "skill-logo" />
-                                        <p>{backEnd.name}</p>
+                                        <img src={getImageUrl(dev.logo)} alt = "skill-logo" />
+                                        <p>{dev.name}</p>
                                     </div>
                                 </div>
                             )
@@ -63,15 +63,15 @@ export const Skills = () => {
                 </div>
 
                 <div className={styles.OthersBox}>
-                    <h3>Platforms</h3>
+                    <h3>Operating Systems and IDEs</h3>
                     <div className={styles.containerOthers}>
-                        {others.map((other, id) => {
+                        {IDE.map((ide, id) => {
                             return (
                                 <div key={id} className={styles.skillsOthers}>
 
                                     <div className={styles.skillElement}>
-                                        <img src={getImageUrl(other.logo)} alt = "skill-logo" />
-                                        <p>{other.name}</p>
+                                        <img src={getImageUrl(ide.logo)} alt = "skill-logo" />
+                                        <p>{ide.name}</p>
                                     </div>
                                 </div>
                             )

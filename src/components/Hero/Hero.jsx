@@ -11,7 +11,7 @@ export const Hero = () => {
                 Hi, I'm Kaywan
             </h1>
             <p className={styles.description}>
-                I'm an upcoming Electrical Engineer with a passion for software development. 
+                I'm an electrical engineer with a passion for software development, currently pursuing graduate studies in data engineering.
                 Through my internship at the Canadian Space Agency and my projects, 
                 I have refined my software skills, primarily focusing on C/C++ and Python.
             </p>

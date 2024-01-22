@@ -36,7 +36,7 @@ export const ProjectCard = ({
 
                     <div className={styles.backCard} onClick={flipCard}>
                         <h3 className={styles.title}>{title}</h3>
-                        <p className={styles.location}>{location}</p>
+                        {/*<p className={styles.location}>{location}</p> */}
                         <p className={styles.description}>{description}</p>
                         <img className={styles.flipImg} src={getImageUrl(imageSrcR)} alt='flip-logo'/>
                         {source && (

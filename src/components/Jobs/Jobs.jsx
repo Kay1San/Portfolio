@@ -16,9 +16,9 @@ export const Jobs = () => {
                         </div>
                         <p>May 2023 - August 2023</p>
                         <ul>
-                            <li>Implemented a Python-based image data compression algorithm with bit-plane encoding and object-oriented programming to support the International Mars Ice Mapper mission.</li>
-                            <li>Worked with multiple Python environments in Anaconda using packages such as Numba, NumPy and GDAL.</li>
-                            <li>Simulated Synthetic Aperture Radar imaging in MATLAB using the Range-Doppler Algorithm.</li>
+                            <li>Implemented a multi-look complex image data compression algorithm for Synthetic Aperture Radar in Python, utilizing bit-plane encoding and object-oriented programming.</li>
+                            <li>Developed a comprehensive dataset using Python data science tools (Pandas, Matplotlib, Seaborn) to analyze the performance of the algorithm on compact polarimetric images under various parameters.</li>
+                            <li>Technologies used : Python, Anaconda, Git, Azure DevOps, Matplotlib, NumPy, Numba, Seaborn, GDAL. </li>
                         </ul>
                     </div>
                 </div>

@@ -7,6 +7,17 @@
         "name":"GitHub",
         "logo":"skills/GitHub-Mark.png"
     },
+
+    {
+        "name":"React",
+        "logo":"skills/react-logo-24.png"
+    },
+
+    {
+        "name":"Django",
+        "logo":"skills/django-logo.png"
+    },
+
     {
         "name":"Azure DevOps",
         "logo":"skills/Azure-Devops.png"
@@ -14,10 +25,6 @@
     {
         "name": "BitBucket",
         "logo": "skills/bitbucket-logo.png"
-    },
-    {
-        "name":"React",
-        "logo":"skills/react-logo-24.png"
     },
     {
         "name":"ClickUp",

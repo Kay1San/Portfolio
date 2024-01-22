@@ -1,17 +1,39 @@
 [
     {
+      "title": "Yelp Clone Web Application",
+      "imageSrc": "projects/flip.png",
+      "imageSrcR": "projects/flip2.png",
+      "location": "Personal project",
+      "date": "October 2023 - Ongoing",
+      "description": "Developed a Yelp clone web application using Django and Python for backend functionality, integrating Yelp Fusion API and Google Places API.",
+      "skills": ["Django", "Python", "HTML", "CSS", "JavaScript", "Yelp Fusion API", "Google Places API"],
+      "source": "https://github.com/Kay1San/linux-facial-recognition",
+      "logo": "projects/GitHub-Mark.png"
+    },
+    {
+      "title": "Facial Recognition System with TCP/IP Communication in Linux ",
+      "imageSrc": "projects/flip.png",
+      "imageSrcR": "projects/flip2.png",
+      "location": "Project done within the course ELE4205 - Operating systems and hardware interfaces",
+      "date": "October 2023 - December 2023",
+      "description": "Developed a real-time facial recognition system in C++, using an Odroid-C2 to train a face detection model which then displays the names of identified individuals.",
+      "skills": ["C++", "Linux", "OpenCV", "TCP/IP", "CentOS 7", "Odroid-C2"],
+      "source": "https://github.com/Kay1San/linux-facial-recognition",
+      "logo": "projects/GitHub-Mark.png"
+    },
+    {
       "title": "Portfolio website",
       "imageSrc": "projects/flip.png",
       "imageSrcR": "projects/flip2.png",
       "location": "Personal project",
       "date": "September 2023",
-      "description": "First web application development using React JS and Vite.   ",
+      "description": "Porfolio website build with ReactJS and Vite.",
       "skills": ["HTML", "CSS", "JavaScript", "React", "Vite"],
-      "source": "https://github.com/Kay1San/Portfolio/tree/main/react-portfolio",
+      "source": "https://github.com/Kay1San/Portfolio",
       "logo": "projects/GitHub-Mark.png"
     },
     {
-      "title": "Battery Management System controlled by an embedded system",
+      "title": "Battery Management System Controlled by an Embedded System",
       "imageSrc": "projects/flip.png",
       "imageSrcR": "projects/flip2.png",
       "location": "Senior year project in collaboration with Rheolution Inc. ",
@@ -22,7 +44,7 @@
       "logo": "projects/GitHub-Mark.png"
     },
     {
-      "title": "Google Chrome Dinosaur game on an embedded system",
+      "title": "Google Chrome's Dinosaur Game on an Embedded System",
       "imageSrc": "projects/flip.png",
       "imageSrcR": "projects/flip2.png",
       "location": "Project done within the course ELE3312 - Microcontrollers and appplications",
@@ -34,7 +56,7 @@
     },
 
     {
-      "title": "Touchless automatic sensor garbage bin with telecommunications features",
+      "title": "Touchless Automatic Sensor Garbage Bin with Telecommunications Features",
       "imageSrc": "projects/flip.png",
       "imageSrcR": "projects/flip2.png",
       "location": "Personal project",

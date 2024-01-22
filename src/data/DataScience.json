@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Matplotlib",
+        "logo":"skills/matplotlib-logo.png"
+    },
+
+    {
+        "name": "Seaborn",
+        "logo": "skills/seaborn-logo.png"
+    },
+
+    {
+        "name": "Pandas",
+        "logo": "skills/pandas-logo.png"
+    },
+    {
+        "name": "Numpy",
+        "logo": "skills/numpy-logo.png"
+    },
+    {
+        "name": "Microsoft Excel",
+        "logo": "skills/excel-logo.png"
+    }
+    
+
+]
