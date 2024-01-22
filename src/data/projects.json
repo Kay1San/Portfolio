@@ -7,7 +7,7 @@
       "date": "October 2023 - Ongoing",
       "description": "Developed a Yelp clone web application using Django and Python for backend functionality, integrating Yelp Fusion API and Google Places API.",
       "skills": ["Django", "Python", "HTML", "CSS", "JavaScript", "Yelp Fusion API", "Google Places API"],
-      "source": "https://github.com/Kay1San/linux-facial-recognition",
+      "source": "https://github.com/Kay1San/YelpFusion-API",
       "logo": "projects/GitHub-Mark.png"
     },
     {
